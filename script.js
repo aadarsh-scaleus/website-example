@@ -15,25 +15,25 @@ if (!reducedMotion) {
     },
   };
 
-  // Column 1 → normal speed
+ 
   const swiper1 = new Swiper(".heroSwiper--1", {
     ...baseOptions,
     speed: 4200,
   });
 
-  // Column 2 → SLOWER (key part)
+  
   const swiper2 = new Swiper(".heroSwiper--2", {
     ...baseOptions,
-    speed: 5200, // 👈 slower
+    speed: 5200,
   });
 
-  // Column 3 → same as column 1
+  
   const swiper3 = new Swiper(".heroSwiper--3", {
     ...baseOptions,
     speed: 4200,
   });
 
-  // Slight vertical offset for column 2 (important for look)
+
   setTimeout(() => {
     swiper2.setTranslate(-140);
   }, 50);
@@ -54,7 +54,7 @@ if (!reducedMotion) {
   });
 }
 
-// Initialize mobile hero slider (horizontal)
+
 if (window.innerWidth <= 768) {
   const heroMobileSwiper = new Swiper('.heroMobileSwiper', {
     direction: 'horizontal',
