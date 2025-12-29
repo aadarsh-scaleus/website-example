@@ -61,7 +61,7 @@
     display: flex;
 }
 
-        /* Reduced Motion */
+        
         @media (prefers-reduced-motion: reduce) {
             *,
             *::before,
@@ -167,7 +167,7 @@
   margin-bottom: var(--spacing-lg);
 }
 
-/* Event pill */
+
 .hero__event {
      display: inline-flex;
     align-items: center;
@@ -181,14 +181,14 @@
     white-space: nowrap;
 }
 
-/* Columns */
+
 .hero__event-col {
   display: flex;
   flex-direction: column;
   gap: 2px;
 }
 
-/* Text styles */
+
 .hero__event-title {
   font-size: 0.9rem;
   font-weight: 700;
@@ -204,7 +204,7 @@
 
 
 
-        /* Hero Swiper Container */
+       
       .hero__images {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -284,7 +284,7 @@
 }
 
 #textarea::placeholder {
-  color: rgba(255, 255, 255, 0.6); /* change as needed */
+  color: rgba(255, 255, 255, 0.6); 
 }
 
         .hero__form-submit {
@@ -300,7 +300,7 @@
             margin-top: var(--spacing-xs);
         }
 
-        /* Stats Section */
+       
  .stats {
   max-width: 1200px;
   margin: 0 auto;
@@ -312,22 +312,21 @@
   padding-bottom: 0px;
 }
 
-/* Stat card */
 .stats__item {
-  height: 165px; /* matches screenshot */
+  height: 165px; 
   display: flex;
   flex-direction: column;
   justify-content: center;
  
 
-  background-image: url("/assets/leaves.png"); /* SINGLE image */
+  background-image: url("/assets/leaves.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 85%;
 
 }
 
-/* Number */
+
 .stats__number {
    font-size: 1.3rem; 
     font-weight: 700;
@@ -339,7 +338,7 @@
 
 }
 
-/* Label */
+
 .stats__label {
  font-size: 1rem; 
     font-weight: 400;
@@ -350,7 +349,7 @@
     background-clip: text;
 }
 
-/* Responsive */
+
 @media (max-width: 900px) {
   .stats {
     grid-template-columns: repeat(2, 1fr);
@@ -505,7 +504,7 @@
             opacity: 0.9;
         }
 
-        /* Pre-schedule Section */
+       
      .preschedule {
   background: linear-gradient(270deg, #EAD7FF 45.09%, #DEC1FF 100%);
 }
@@ -527,7 +526,7 @@
     padding: 40px;
 }
 
-/* LEFT CONTENT */
+
 .preschedule__content {
   z-index: 2;
 }
@@ -560,7 +559,7 @@ font-weight: 600;
     background-clip: text;
 }
 
-/* BUTTON */
+
 .preschedule__button {
   background: var(--color-primary-dark);
   color: var(--color-white);
@@ -573,7 +572,7 @@ font-weight: 600;
   cursor: pointer;
 }
 
-/* RIGHT IMAGE */
+
 .preschedule__image {
   position: relative;
   height: 450px;
@@ -589,7 +588,7 @@ font-weight: 600;
 
 
 
-        /* Exhibition Benefits */
+       
 .benefits {
   padding: 4rem 1rem 6rem;
   background: linear-gradient(180deg, #4b1c7a 0%, #0b1445 100%);
@@ -598,7 +597,7 @@ font-weight: 600;
   overflow: hidden;
 }
 
-/* CURVED / OVAL SHAPE */
+
 .benefits::after {
   content: "";
   position: absolute;
@@ -616,7 +615,7 @@ background-color: white;
   z-index: 0;
 }
 
-/* Keep content above shape */
+
 .benefits > * {
   position: relative;
   z-index: 1;
@@ -629,7 +628,7 @@ background-color: white;
   margin-bottom: 2.5rem;
 }
 
-/* Card */
+
 .benefits__card {
   background: #f0e6ff;
   color: #2a1a5e;
@@ -657,7 +656,7 @@ background-color: white;
   opacity: 0.85;
 }
 
-/* Swiper spacing */
+
 .benefits__swiper {
  padding-bottom: 4rem;
     padding-left: 40px;
@@ -668,7 +667,7 @@ background-color: white;
   height: auto;
 }
 
-/* Navigation */
+
 .benefits__nav {
   display: flex;
   justify-content: center;
@@ -704,7 +703,6 @@ background-color: white;
   font-size: 0.8rem;
 }
 
-/* TOP */
 .footer__top {
   max-width: 1450px;
   margin: 0 auto;
@@ -715,13 +713,12 @@ background-color: white;
   align-items: flex-start;
 }
 
-/* Logo */
 .footer__logo {
   width: 130px;
   height: auto;
 }
 
-/* Items */
+
 .footer__item {
   display: flex;
   gap: 0.6rem;
@@ -745,7 +742,7 @@ background-color: white;
   opacity: 0.9;
 }
 
-/* Social */
+
 .footer__social-icons {
   display: flex;
   gap: 0.6rem;
@@ -757,7 +754,7 @@ background-color: white;
   height: 30px;
 }
 
-/* BOTTOM */
+
 .footer__bottom {
   text-align: center;
   padding: 0.6rem 1rem;
@@ -766,7 +763,7 @@ background-color: white;
   font-size: 0.9rem;
 }
 
-/* RESPONSIVE */
+
 @media (max-width: 1024px) {
   .footer__top {
     grid-template-columns: 1fr 1fr;
@@ -814,7 +811,7 @@ a.header__phone {
   z-index: 1000;
 }
 
-/* AFTER 50px */
+
 .header--sticky {
   position: fixed;
   top: 0;
@@ -947,7 +944,6 @@ button.header__register2 {
   margin-bottom: var(--spacing-lg);
 }
 
-/* Event pill */
 .hero__event {
   display: inline-flex;
   align-items: center;
@@ -963,14 +959,12 @@ button.header__register2 {
   display: none;
 }
 
-/* Columns */
 .hero__event-col {
   display: flex;
   flex-direction: column;
   gap: 2px;
 }
 
-/* Text styles */
 .hero__event-title {
   font-size: 1.3rem;
   font-weight: 700;
@@ -983,7 +977,7 @@ button.header__register2 {
   opacity: 0.85;
 }
 
-/* Divider */
+
 .hero__event-divider {
   width: 3px;
   height: 42px;
@@ -999,7 +993,7 @@ button.header__register2 {
   overflow: hidden;
 }
 
-/* Left icon box */
+
 .cta-submit__icon {
   width: 48px;
   height: 50px;
@@ -1014,7 +1008,7 @@ button.header__register2 {
   height: 16px;
 }
 
-/* Right submit button */
+
 .cta-submit__btn {
   height: 44px;
   padding: 0 35px;
@@ -1135,7 +1129,7 @@ a.header__phone {
   }
 
 
-            /* Mobile: Convert grid to swiper */
+            
             .choose__grid {
                 display: none;
             }
@@ -1331,7 +1325,7 @@ border-radius: 50px;
   border-radius: 4px;
 }
 
-/* Event Details */
+
 .hero-mobile__event {
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(10px);
@@ -1426,7 +1420,6 @@ p.hero__content-subtitle {
   position: relative;
 }
 
-/* Animated background overlay */
 .cta-submit::before {
   content: '';
   position: absolute;
@@ -1445,7 +1438,7 @@ p.hero__content-subtitle {
   transform: scaleX(1);
 }
 
-/* Left icon box */
+
 .cta-submit__icon {
   width: 48px;
   height: 50px;
@@ -1462,7 +1455,7 @@ p.hero__content-subtitle {
   height: 16px;
 }
 
-/* Right submit button */
+
 .cta-submit__btn {
   height: 44px;
   padding: 0 35px;
